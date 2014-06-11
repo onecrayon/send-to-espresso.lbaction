@@ -1,0 +1,4 @@
+"URL required" = "URL required";
+"Send To Espresso requires a local file path or URL." = "Send To Espresso requires a local file path or URL.";
+"File does not exist" = "File does not exist";
+"The path you tried to send to Espresso does not exist." = "The path you tried to send to Espresso does not exist.";

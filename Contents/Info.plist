@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.onecrayon.LaunchBar.action.SendToEspresso</string>
+	<key>CFBundleIconFile</key>
+	<string>com.macrabbit.Espresso</string>
+	<key>CFBundleName</key>
+	<string>Send To Espresso</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBRequiredApplication</key>
+	<string>com.macrabbit.Espresso</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.macrabbit.Espresso</string>
+	<key>LBTextInputTitle</key>
+	<string>URL</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+				<string>path</string>
+			</array>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>This action opens a file or URL in Espresso.</string>
+		<key>LBAuthor</key>
+		<string>Ian Beck</string>
+		<key>LBEmail</key>
+		<string>ian@onecrayon.com</string>
+		<key>LBWebsite</key>
+		<string>http://macrabbit.com/espresso/</string>
+		<key>LBTwitter</key>
+		<string>@ianbeck</string>
+		<key>LBArgument</key>
+		<string>The file or URL you wish to open in Espresso.</string>
+	</dict>
+</dict>
+</plist>
